@@ -1,8 +1,8 @@
 1 - first connect your terminal with the ganache-cli 
-2 - then upload the smart contract through the remix-ide but doing this , connect your remix-ide with the ganache 
+2 - then upload the smart contract through the remix-ide but before doing this , connect your remix-ide with the ganache 
 3 - do npm install to install the all dependency 
 4 - copy the smart contract address and the the abi code from the remix-ide 
-5 - paste the contract address in the index.js file under the variable nae contract_address = "0x3A" like this 
+5 - paste the contract address in the index.js file under the variable name contract_address = "0x3A" like this 
 6 - please ensure the smart conntract address is copied properly
 7 - same with the abi code contract_abi = [""]
 8 - in the terminal run the index.js file - node index.js
