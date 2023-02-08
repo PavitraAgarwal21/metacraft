@@ -36,7 +36,7 @@ contract FunctionError
 
         //revert is prefer to use  - bcz if some error has occured then instead 
         //                           of burn all the gas it revert back the remmaing gas  
-        function _revert() public  {
+        function _revert() public  view {
             if(msg.sender != owner ) { 
                 // revert is used for complex 
                 revert ("less than or equal to 5");
